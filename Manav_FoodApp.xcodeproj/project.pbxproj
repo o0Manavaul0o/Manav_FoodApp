@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3B090FF26AB21E10089409C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B090FE26AB21E10089409C /* AppDelegate.swift */; };
+		D3B0910126AB21E10089409C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B0910026AB21E10089409C /* SceneDelegate.swift */; };
+		D3B0910326AB21E10089409C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B0910226AB21E10089409C /* ViewController.swift */; };
+		D3B0910626AB21E10089409C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B0910426AB21E10089409C /* Main.storyboard */; };
+		D3B0910826AB21E30089409C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B0910726AB21E30089409C /* Assets.xcassets */; };
+		D3B0910B26AB21E30089409C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B0910926AB21E30089409C /* LaunchScreen.storyboard */; };
+		D3B0911626AB21E30089409C /* Manav_FoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B0911526AB21E30089409C /* Manav_FoodAppTests.swift */; };
+		D3B0912126AB21E30089409C /* Manav_FoodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B0912026AB21E30089409C /* Manav_FoodAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3B0911226AB21E30089409C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B090F326AB21E10089409C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3B090FA26AB21E10089409C;
+			remoteInfo = Manav_FoodApp;
+		};
+		D3B0911D26AB21E30089409C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B090F326AB21E10089409C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3B090FA26AB21E10089409C;
+			remoteInfo = Manav_FoodApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3B090FB26AB21E10089409C /* Manav_FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manav_FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B090FE26AB21E10089409C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3B0910026AB21E10089409C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3B0910226AB21E10089409C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3B0910526AB21E10089409C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3B0910726AB21E30089409C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3B0910A26AB21E30089409C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3B0910C26AB21E30089409C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B0911126AB21E30089409C /* Manav_FoodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Manav_FoodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B0911526AB21E30089409C /* Manav_FoodAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manav_FoodAppTests.swift; sourceTree = "<group>"; };
+		D3B0911726AB21E30089409C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B0911C26AB21E30089409C /* Manav_FoodAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Manav_FoodAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B0912026AB21E30089409C /* Manav_FoodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manav_FoodAppUITests.swift; sourceTree = "<group>"; };
+		D3B0912226AB21E30089409C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3B090F826AB21E10089409C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B0910E26AB21E30089409C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B0911926AB21E30089409C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3B090F226AB21E10089409C = {
+			isa = PBXGroup;
+			children = (
+				D3B090FD26AB21E10089409C /* Manav_FoodApp */,
+				D3B0911426AB21E30089409C /* Manav_FoodAppTests */,
+				D3B0911F26AB21E30089409C /* Manav_FoodAppUITests */,
+				D3B090FC26AB21E10089409C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3B090FC26AB21E10089409C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3B090FB26AB21E10089409C /* Manav_FoodApp.app */,
+				D3B0911126AB21E30089409C /* Manav_FoodAppTests.xctest */,
+				D3B0911C26AB21E30089409C /* Manav_FoodAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3B090FD26AB21E10089409C /* Manav_FoodApp */ = {
+			isa = PBXGroup;
+			children = (
+				D3B090FE26AB21E10089409C /* AppDelegate.swift */,
+				D3B0910026AB21E10089409C /* SceneDelegate.swift */,
+				D3B0910226AB21E10089409C /* ViewController.swift */,
+				D3B0910426AB21E10089409C /* Main.storyboard */,
+				D3B0910726AB21E30089409C /* Assets.xcassets */,
+				D3B0910926AB21E30089409C /* LaunchScreen.storyboard */,
+				D3B0910C26AB21E30089409C /* Info.plist */,
+			);
+			path = Manav_FoodApp;
+			sourceTree = "<group>";
+		};
+		D3B0911426AB21E30089409C /* Manav_FoodAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3B0911526AB21E30089409C /* Manav_FoodAppTests.swift */,
+				D3B0911726AB21E30089409C /* Info.plist */,
+			);
+			path = Manav_FoodAppTests;
+			sourceTree = "<group>";
+		};
+		D3B0911F26AB21E30089409C /* Manav_FoodAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3B0912026AB21E30089409C /* Manav_FoodAppUITests.swift */,
+				D3B0912226AB21E30089409C /* Info.plist */,
+			);
+			path = Manav_FoodAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3B090FA26AB21E10089409C /* Manav_FoodApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B0912526AB21E30089409C /* Build configuration list for PBXNativeTarget "Manav_FoodApp" */;
+			buildPhases = (
+				D3B090F726AB21E10089409C /* Sources */,
+				D3B090F826AB21E10089409C /* Frameworks */,
+				D3B090F926AB21E10089409C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Manav_FoodApp;
+			productName = Manav_FoodApp;
+			productReference = D3B090FB26AB21E10089409C /* Manav_FoodApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3B0911026AB21E30089409C /* Manav_FoodAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B0912826AB21E30089409C /* Build configuration list for PBXNativeTarget "Manav_FoodAppTests" */;
+			buildPhases = (
+				D3B0910D26AB21E30089409C /* Sources */,
+				D3B0910E26AB21E30089409C /* Frameworks */,
+				D3B0910F26AB21E30089409C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3B0911326AB21E30089409C /* PBXTargetDependency */,
+			);
+			name = Manav_FoodAppTests;
+			productName = Manav_FoodAppTests;
+			productReference = D3B0911126AB21E30089409C /* Manav_FoodAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3B0911B26AB21E30089409C /* Manav_FoodAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B0912B26AB21E30089409C /* Build configuration list for PBXNativeTarget "Manav_FoodAppUITests" */;
+			buildPhases = (
+				D3B0911826AB21E30089409C /* Sources */,
+				D3B0911926AB21E30089409C /* Frameworks */,
+				D3B0911A26AB21E30089409C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3B0911E26AB21E30089409C /* PBXTargetDependency */,
+			);
+			name = Manav_FoodAppUITests;
+			productName = Manav_FoodAppUITests;
+			productReference = D3B0911C26AB21E30089409C /* Manav_FoodAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3B090F326AB21E10089409C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D3B090FA26AB21E10089409C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D3B0911026AB21E30089409C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D3B090FA26AB21E10089409C;
+					};
+					D3B0911B26AB21E30089409C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D3B090FA26AB21E10089409C;
+					};
+				};
+			};
+			buildConfigurationList = D3B090F626AB21E10089409C /* Build configuration list for PBXProject "Manav_FoodApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3B090F226AB21E10089409C;
+			productRefGroup = D3B090FC26AB21E10089409C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3B090FA26AB21E10089409C /* Manav_FoodApp */,
+				D3B0911026AB21E30089409C /* Manav_FoodAppTests */,
+				D3B0911B26AB21E30089409C /* Manav_FoodAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3B090F926AB21E10089409C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B0910B26AB21E30089409C /* LaunchScreen.storyboard in Resources */,
+				D3B0910826AB21E30089409C /* Assets.xcassets in Resources */,
+				D3B0910626AB21E10089409C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B0910F26AB21E30089409C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B0911A26AB21E30089409C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3B090F726AB21E10089409C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B0910326AB21E10089409C /* ViewController.swift in Sources */,
+				D3B090FF26AB21E10089409C /* AppDelegate.swift in Sources */,
+				D3B0910126AB21E10089409C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B0910D26AB21E30089409C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B0911626AB21E30089409C /* Manav_FoodAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B0911826AB21E30089409C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B0912126AB21E30089409C /* Manav_FoodAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3B0911326AB21E30089409C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3B090FA26AB21E10089409C /* Manav_FoodApp */;
+			targetProxy = D3B0911226AB21E30089409C /* PBXContainerItemProxy */;
+		};
+		D3B0911E26AB21E30089409C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3B090FA26AB21E10089409C /* Manav_FoodApp */;
+			targetProxy = D3B0911D26AB21E30089409C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3B0910426AB21E10089409C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B0910526AB21E10089409C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3B0910926AB21E30089409C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B0910A26AB21E30089409C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3B0912326AB21E30089409C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3B0912426AB21E30089409C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3B0912626AB21E30089409C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z8DP7ZNP4;
+				INFOPLIST_FILE = Manav_FoodApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idonthaveanorganizationlol.Manav-FoodApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3B0912726AB21E30089409C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z8DP7ZNP4;
+				INFOPLIST_FILE = Manav_FoodApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idonthaveanorganizationlol.Manav-FoodApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3B0912926AB21E30089409C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z8DP7ZNP4;
+				INFOPLIST_FILE = Manav_FoodAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idonthaveanorganizationlol.Manav-FoodAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manav_FoodApp.app/Manav_FoodApp";
+			};
+			name = Debug;
+		};
+		D3B0912A26AB21E30089409C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z8DP7ZNP4;
+				INFOPLIST_FILE = Manav_FoodAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idonthaveanorganizationlol.Manav-FoodAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manav_FoodApp.app/Manav_FoodApp";
+			};
+			name = Release;
+		};
+		D3B0912C26AB21E30089409C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z8DP7ZNP4;
+				INFOPLIST_FILE = Manav_FoodAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idonthaveanorganizationlol.Manav-FoodAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Manav_FoodApp;
+			};
+			name = Debug;
+		};
+		D3B0912D26AB21E30089409C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z8DP7ZNP4;
+				INFOPLIST_FILE = Manav_FoodAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idonthaveanorganizationlol.Manav-FoodAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Manav_FoodApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3B090F626AB21E10089409C /* Build configuration list for PBXProject "Manav_FoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B0912326AB21E30089409C /* Debug */,
+				D3B0912426AB21E30089409C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B0912526AB21E30089409C /* Build configuration list for PBXNativeTarget "Manav_FoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B0912626AB21E30089409C /* Debug */,
+				D3B0912726AB21E30089409C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B0912826AB21E30089409C /* Build configuration list for PBXNativeTarget "Manav_FoodAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B0912926AB21E30089409C /* Debug */,
+				D3B0912A26AB21E30089409C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B0912B26AB21E30089409C /* Build configuration list for PBXNativeTarget "Manav_FoodAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B0912C26AB21E30089409C /* Debug */,
+				D3B0912D26AB21E30089409C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3B090F326AB21E10089409C /* Project object */;
+}
